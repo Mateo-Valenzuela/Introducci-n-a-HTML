@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T.P N°1</title>
+    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="yellow">
+</head>
+<body>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Descripción</label>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Detalle</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Precio de Venta">
+        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+      </div>
+    <div class="input-group mb-3">
+    <span class="input-group-text">N°</span>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="stock">
+    </div>
+    <div>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Categoría...</option>
+            <option value="Alta">One</option>
+            <option value="Mediana">Two</option>
+            <option value="Baja">Three</option>
+          </select>
+    </div>
+    <img src="..." class="rounded float-end" alt="...">
+
+</body>
+</html> 
